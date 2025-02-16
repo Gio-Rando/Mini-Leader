@@ -238,9 +238,10 @@ nav a{
 
 footer{
     background-color: hsl(243, 87%, 12%);
-    display: flex;
-    justify-content: center;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .enti{
@@ -249,11 +250,13 @@ footer{
 } 
 .enti p{
     color: hsl(0, 0%, 75%);
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .enti div{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 200px;
 }
