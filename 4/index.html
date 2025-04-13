@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Leader exam 1 april</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cards">
+            <div class="card1">
+                <img src="./images/card-logo.svg" alt="">
+                <div class="info">
+                    <h1 class="answer">0000 0000 0000 0000</h1>
+                    <div>
+                        <p class="answer">JANE APPLEDEED</p>
+                        <p class="answer">00/00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <p class="answer">000</p>
+            </div>
+        </div>
+        <form action="">
+            <div id="after">
+                <img src="./images/icon-complete.svg" alt="">
+                <h1>THANK YOU!</h1>
+                <p>We've added your card details</p>
+            </div>
+
+            <div class="form">
+                <div class="bla">
+                    <div class="fo">
+                        <label for="name">CARDHOLDER NAME</label>
+                        <input required id="name" type="text" placeholder="e.g. Jane Appleseed">
+                        <p class="error">er</p>
+                    </div>
+                    <div class="fo">
+                        <label for="numb">CARD NUMBER</label>
+                        <input required minlength="20" maxlength="20" id="numb" type="text" placeholder="e.g. 1234 5678 9123 0000">
+                        <p class="error">er</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="idk">
+
+                    <div class="date">
+                        <label>EXP. DATE (MM/YY)</label>
+                        <div class="mm">
+                            <input required maxlength="2" min="0" max="12"type="text" placeholder="MM">
+                            <input required maxlength="2" max="25" min="0" type="text" placeholder="YY"> 
+                        </div> 
+                    <p class="error">er</p>
+
+                    </div>
+    
+                    <div class="cvc">
+                        <label for="cvc">CVC</label>
+                        <input required maxlength="3" max="999" id="cvc" type="text" placeholder="e.g. 123">
+                        <p class="error">er</p>
+                    </div>
+    
+                </div>
+            </div>
+
+            
+            <input id="sub" type="submit" value="Confirm">
+        </form>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
